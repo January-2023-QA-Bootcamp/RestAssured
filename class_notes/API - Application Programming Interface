@@ -1,0 +1,52 @@
+API - Application Programming Interface
+
+Web Service / Middle Layer 
+
+Layers of Application:
+
+Front-End - GUI (Graphical User Interface)
+Middle Layer / Business Layer (Web Services / Micro Services / APIs)
+Back-End - DB
+
+Endpoints
+URL / URI = Unified Resource Locator/Identifier
+Params
+- Query Params
+- Path Params
+Headers - Request, Response
+Body - Request (POST,PUT), Response
+JSON (JavaScipt object notation) - body type (XML)
+HttpMethod
+HttpResponse
+HttpStatusCode
+
+Web Service - contains multiple endpoints - e.g 10
+Micro Services - contains multiple Web Service
+
+RESTFull Web Services - Headers, JSON, XML, 90%
+SOAP Services - Envalop, XML, 5%
+
+Web Service has 2 parts.
+Request:
+--------
+Http Method - GET, PUT, POST, DELETE
+Query Param - key & value into URI
+Path Param - value into URI
+Request Headers - Authorization, Content Type (Payload Type)
+Request Body (Payload) - 
+Response:
+---------
+Htts Status Code - Success - 2**, Redirection - 3**, Client Side error 4**, Server side error 5**
+Reponse Header
+Response Body (JSON, XML, HTML) 
+
+API test validation:
+Pre-condition:
+- Making the correct request, so it will return correct response
+- Creating a body type (JSON)
+- Send correct params
+After:
+- Status code validation
+- Response header validation
+- Response body validation
+- Response key value pairs validation
