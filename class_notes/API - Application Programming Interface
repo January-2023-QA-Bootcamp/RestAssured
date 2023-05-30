@@ -33,11 +33,11 @@ Http Method - GET, PUT, POST, DELETE
 Query Param - key & value into URI
 Path Param - value into URI
 Request Headers - Authorization, Content Type (Payload Type)
-Request Body (Payload) - 
+Request Body (Payload) - POST, PUT
 Response:
 ---------
-Htts Status Code - Success - 2**, Redirection - 3**, Client Side error 4**, Server side error 5**
-Reponse Header
+Http Status Code - Success - 2**, Redirection - 3**, Client Side error 4**, Server side error 5**
+Response Header
 Response Body (JSON, XML, HTML) 
 
 API test validation:
@@ -50,3 +50,9 @@ After:
 - Response header validation
 - Response body validation
 - Response key value pairs validation
+
+CURD : HTTP Methods
+C - Create	: POST
+U - Update	: PUT / PATCH
+R - Read	: GET
+D - Delete	: DELETE
