@@ -72,6 +72,7 @@ public class GetAPI {
 		
 		System.out.println(response.asPrettyString());
 		
+		//Assertion needed after the request
 		JsonPath path = new JsonPath(response.asString());
 		Assert.assertEquals(path.getString("id[3]"), "20");
 	}
