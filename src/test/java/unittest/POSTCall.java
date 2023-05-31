@@ -5,10 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
